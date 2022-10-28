@@ -5,7 +5,7 @@ function updateTime() {
   let chicagoTime = moment().tz("America/Chicago");
   chicagoDate.innerHTML = chicagoTime.format("MMMM Do yyyy");
   chicagoTimeElement.innerHTML = chicagoTime.format(
-    "h:m:ss [<small>]A[</small>]"
+    "h:mm:ss [<small>]A[</small>]"
   );
 
   let parisElement = document.querySelector("#paris");
@@ -13,7 +13,7 @@ function updateTime() {
   let parisTimeElement = parisElement.querySelector(".time");
   let parisTime = moment().tz("Europe/Paris");
   parisDate.innerHTML = parisTime.format("MMMM Do yyyy");
-  parisTimeElement.innerHTML = parisTime.format("h:m:ss [<small>]A[</small>]");
+  parisTimeElement.innerHTML = parisTime.format("h:mm:ss [<small>]A[</small>]");
 }
 
 function updateCity(event) {

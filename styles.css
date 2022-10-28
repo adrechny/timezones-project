@@ -1,5 +1,9 @@
 body {
-  background: #f9f7fe;
+  background: linear-gradient(
+    91.9deg,
+    rgb(93, 248, 219) 27.8%,
+    rgb(33, 228, 246) 67%
+  );
   font-family: sans-serif;
 }
 
@@ -60,5 +64,8 @@ select {
 footer {
   text-align: center;
   font-size: 18px;
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(0, 0, 0, 0.9);
+}
+footer a {
+  color: green;
 }
